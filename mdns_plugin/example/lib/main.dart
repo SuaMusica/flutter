@@ -20,7 +20,7 @@ void main() {
       builder: (context) {
         return AppBloc()..dispatch(AppEventStart());
       },
-      child: MyApp()));
+      child: MyApp(),));
 }
 
 /////////////////////////////////////////////////////////////////////
